@@ -12,4 +12,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  handleClick(event: Event) {
+    console.log('funcao na home')
+  }
 }
